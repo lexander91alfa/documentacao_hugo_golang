@@ -1,6 +1,6 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
-
+<!-- ---
+title: "{{ replace .Name "-" " " | title Docsy }}"
+linkTitle: "{{ replace .Name "-" " " | title }}"
+menu: {main: {weight: 10}}
+layout: docs
+--- -->
